@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Environment
+.env
+!env.example
+
+# Logs
+logs/
+*.log
+
+# Vector store data
+chroma_db/
+
+# Data cache
+md5.txt
+
+# Docker
+.dockerignore
+
+# OS
+.DS_Store
+Thumbs.db
